@@ -7,6 +7,7 @@ const Conatiner = styled.div`
   height: 100%;
   width: 100%;
   color: white;
+  ${mobile({ height: "80vh" })};
 `;
 
 const Header = styled.h1`

@@ -6,7 +6,7 @@ import { mobile } from "../Responsive";
 const Container = styled.div`
   height: 90vh;
   width: auto;
-  ${mobile({ height: "auto" })};
+  ${mobile({ height: "80vh" })};
 `;
 const Wrapper = styled.div`
   height: 100%;
@@ -34,13 +34,13 @@ const PhotoContainer = styled.div`
   color: white;
   height: 100%;
   align-items: center;
-  ${mobile({ height: "100%", padding: "10px" })};
+  ${mobile({ height: "auto", padding: "10px" })};
 `;
 
 const Photo = styled.img`
   height: 20rem;
   width: 20rem;
-  ${mobile({ height: "80%", width: "80%" })};
+  ${mobile({ height: "100%", width: "100%" })};
 `;
 
 const Br = styled.br``;

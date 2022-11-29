@@ -3,12 +3,14 @@ import styled from "styled-components";
 import { AiFillHtml5 } from "react-icons/ai";
 import { FaCss3Alt, FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
 import { SiJavascript, SiJava } from "react-icons/si";
+import { mobile } from "../Responsive";
 
 const Container = styled.div`
   background-color: #171c28;
   height: 100%;
   width: 100%;
   color: white;
+  ${mobile({ height: "80vh" })};
 `;
 
 const Header = styled.h1`

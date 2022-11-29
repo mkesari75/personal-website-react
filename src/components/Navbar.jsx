@@ -10,7 +10,7 @@ const Container = styled.div`
   position: sticky;
   border-bottom: 1px solid grey;
   box-shadow: 0px 15px 10px -15px #111;
-  ${mobile({ height: "auto" })};
+  ${mobile({ height: "auto", paddingBottom: "10px" })};
 `;
 
 const Wrapper = styled.div`

@@ -3,12 +3,14 @@ import styled from "styled-components";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import { MdLocationPin } from "react-icons/md";
+import { mobile } from "../Responsive";
 
 const Container = styled.div`
   background-color: #171c28;
   height: 100%;
   width: 100%;
   color: white;
+  ${mobile({ height: "70vh" })};
 `;
 
 const Header = styled.h1`
