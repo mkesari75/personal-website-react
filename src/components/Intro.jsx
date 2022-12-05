@@ -13,6 +13,7 @@ const Wrapper = styled.div`
   background-color: #171c28;
   display: flex;
   align-items: center;
+  /* ${mobile({ flexDirection: "column" })}; */
 `;
 
 const Heading = styled.p`
@@ -21,7 +22,12 @@ const Heading = styled.p`
   flex: 1;
   justify-content: center;
   font-size: 3rem;
-  ${mobile({ fontSize: "1.5rem", flex: 2, padding: "10px" })};
+  ${mobile({
+    fontSize: "1.5rem",
+    flex: 2,
+    padding: "10px",
+    alignItems: "center",
+  })};
   .name {
     ${mobile({ fontSize: "1.7rem" })};
   }
