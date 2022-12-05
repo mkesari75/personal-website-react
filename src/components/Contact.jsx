@@ -82,7 +82,7 @@ const Contact = () => {
             </SubHeader>
             <Icons>
               <Icon>
-                <Link href="https://in.linkedin.com/in/mayur-kesari-a062031b3">
+                <Link href="https://www.linkedin.com/in/mayur-kesari/">
                   <FaLinkedin />
                 </Link>
               </Icon>
