@@ -10,7 +10,7 @@ const Container = styled.div`
   height: 100%;
   width: 100%;
   color: white;
-  ${mobile({ height: "80vh" })};
+  ${mobile({ height: "80vh", paddingBottom: "20px" })};
 `;
 
 const Header = styled.h1`
@@ -26,11 +26,17 @@ const Line = styled.div`
 
 const IconContainer = styled.div`
   margin-left: 2%;
+  height: auto;
+  width: auto;
+  ${mobile({
+    margin: "50px",
+  })};
 `;
 
 const Icons = styled.div`
   display: flex;
   flex-wrap: wrap;
+  ${mobile({ padding: "10px" })};
 `;
 
 const Icon = styled.div`

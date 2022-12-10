@@ -101,7 +101,7 @@ const Projects = () => {
                 <ProjectContent>
                   App made with MERN stack
                   <Live>
-                    <Link href="https://kbc-app-react.herokuapp.com/">
+                    <Link href="https://kbc-reactapp.netlify.app/">
                       <VscLiveShare />
                     </Link>
                   </Live>
@@ -126,14 +126,7 @@ const Projects = () => {
             <Content>
               <Link href="https://github.com/mkesari75/todolist">
                 <ProjectTitle>To-do-List</ProjectTitle>
-                <ProjectContent>
-                  App made with MERN stack
-                  <Live>
-                    <Link href="https://sleepy-coast-76955.herokuapp.com/">
-                      <VscLiveShare />
-                    </Link>
-                  </Live>
-                </ProjectContent>
+                <ProjectContent>App made with MERN stack</ProjectContent>
               </Link>
             </Content>
           </ContentContainer>
